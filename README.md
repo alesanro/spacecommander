@@ -43,7 +43,7 @@ This way, we can check the formatting as part of the build process, and fail the
 Configuration
 -------------
 
-To format files within a single directory only (just one of these is supported at this time), specify the name of this directory in a file named .formatting-directory. Otherwise, all Objective-C files tracked in the repo will be checked.
+To format files only within selected directories, specify the name each directory in a file named `.formatting-directory`, separated by newlines (and without whitespace escaped). Otherwise, all Objective-C files tracked in the repo will be checked.
 
 To modify the formatting output, edit the following:
 
@@ -89,3 +89,9 @@ The formatter can't do everything. It may occasionally produce an undesirable re
 * Add `#pragma Formatter Exempt` or `// MARK: Formatter Exempt` as the first line of the file, and it will not be formatted at all.
 * [Wislawa Szymborska](http://en.wikipedia.org/wiki/Wis%C5%82awa_Szymborska) said "All imperfection is easier to tolerate if served up in small doses." **[ Space Commander]** will remove nearly all formatting imperfections, but you may need to tolerate an occasional deviation from the expected result.
 
+Contributing
+-------------
+
+We’re glad you’re interested in **[ Space Commander]**, and we’d love to see where you take it. Please read our [contributing guidelines](Contributing.md) prior to submitting a Pull Request.
+
+Thanks, and happy formatting!
