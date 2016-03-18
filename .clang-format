@@ -2,10 +2,11 @@ BasedOnStyle: Chromium
 BreakBeforeBraces: Linux
 
 ColumnLimit: 0
-PointerAlignment: Right
+IndentWidth: 4
+MaxEmptyLinesToKeep: 2
 ObjCBlockIndentWidth: 4
 ObjCSpaceAfterProperty: true
 ObjCSpaceBeforeProtocolList: true
-IndentWidth: 4
+PointerAlignment: Right
 TabWidth: 4
 UseTab: Never
